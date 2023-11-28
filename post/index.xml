@@ -81,7 +81,25 @@ Twitter You want to include a single tweet into your blog post? Everything you n
       <guid>https://mialunachen.github.io/post/2020/jan/netlify-conf/</guid>
       <description>You can host your static website wth zero cost in Netlify.
 Add the below netlify.toml in the root folder.
-[build]publish = &amp;quot;public&amp;quot;command = &amp;quot;hugo --gc --minify&amp;quot;[context.production.environment]HUGO_VERSION = &amp;quot;0.82.0&amp;quot;HUGO_ENV = &amp;quot;production&amp;quot;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;[context.split1]command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;[context.split1.environment]HUGO_VERSION = &amp;quot;0.82.0&amp;quot;HUGO_ENV = &amp;quot;production&amp;quot;[context.deploy-preview]command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;[context.deploy-preview.environment]HUGO_VERSION = &amp;quot;0.82.0&amp;quot;[context.branch-deploy]command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;[context.</description>
+[build]
+publish = &amp;quot;public&amp;quot;
+command = &amp;quot;hugo --gc --minify&amp;quot;
+[context.production.environment]
+HUGO_VERSION = &amp;quot;0.82.0&amp;quot;
+HUGO_ENV = &amp;quot;production&amp;quot;
+HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;
+[context.split1]
+command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;
+[context.split1.environment]
+HUGO_VERSION = &amp;quot;0.82.0&amp;quot;
+HUGO_ENV = &amp;quot;production&amp;quot;
+[context.deploy-preview]
+command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;
+[context.deploy-preview.environment]
+HUGO_VERSION = &amp;quot;0.82.0&amp;quot;
+[context.branch-deploy]
+command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;
+[context.</description>
     </item>
     
     <item>
