@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on mia luna chen</title>
+    <link>https://mialunachen.github.io/tags/</link>
+    <description>Recent content in Tags on mia luna chen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mialunachen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mit</title>
+      <link>https://mialunachen.github.io/tags/mit/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://mialunachen.github.io/tags/mit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Motorsports</title>
+      <link>https://mialunachen.github.io/tags/motorsports/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://mialunachen.github.io/tags/motorsports/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://mialunachen.github.io/tags/research/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://mialunachen.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feature</title>
+      <link>https://mialunachen.github.io/tags/feature/</link>
+      <pubDate>Fri, 06 Oct 2023 20:37:29 +0700</pubDate>
+      <guid>https://mialunachen.github.io/tags/feature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Additive Manufacturing</title>
+      <link>https://mialunachen.github.io/tags/additive-manufacturing/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://mialunachen.github.io/tags/additive-manufacturing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
