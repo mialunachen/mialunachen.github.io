@@ -106,7 +106,7 @@
           </li>
 
           <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
-            1 min read
+            3 min read
           </li>
 
         </ul>
@@ -122,8 +122,39 @@
     </figure>
 
     <div id="content" class="mb-14">
-      <h2 id="introduction">Introduction</h2>
-<p>Helpasdfad</p>
+      <h3 id="introduction">Introduction</h3>
+<p>This Spring (and the coming summer and fall), I&rsquo;m working with the Plasma Science Fusion Center at MIT to develop a gas atomization system that will enable the research and development of new materials for the additive manufacturing of fusion reactor components.</p>
+<h3 id="additive-manufacturing-in-fusion-research">Additive Manufacturing in Fusion Research</h3>
+<p>Additive manufacturing of fusion reactor components relies on a method called laser powder bed fusion, in which a thin layer of powder—typically a metallic alloy—is dispersed over a build plate and selectively sintered or melted by a high-power laser. This layer is then lowered and powder is repeatedly brushed over and solidified until a complete three dimensional component is produced. The alloys used for LPBF are typically produced through a method called <a href="https://www.sciencedirect.com/topics/engineering/gas-atomization">gas atomization</a> , in which a supersonic stream of inert gas, typically argon or helium, impacts a stream of molten metal, transferring kinetic energy and resulting in the breakup of the metal into microscopic droplets that cool and solidify as they fall.</p>
+<p>Currently, the copper alloy most popularly used for these components contains NbCr2 precipitates which strengthen and improve the material properties of these alloys. However, the Niobium in this precipitate was discovered to readily absorb neutrons and become radioactive. The long term goal of my project is to develop a copper alloy fit for the additive manufacturing of nuclear fusion reactor components. To do this, I first need to develop a gas atomization system that enables the rapid production of small quantities of powder alloys, enabling us to protoype alloys without shelling out thousands of dollars and depending on lead times from commercial gas atomization suppliers.</p>
+<h3 id="prototype-nozzles">Prototype nozzles</h3>
+<p>In order to successfully atomize the molten metal, we need a nozzle that can deliver gas at a sufficient velocity and mass flow rate to break the melt feed stream into consistently sized powder particles. To give us maximum control and flexibility in terms of the nozzle geometry, these nozzles are manufactured through <a href="https://en.wikipedia.org/wiki/Stereolithography">SLA 3D Printing</a></p>
+<p>First, I played around with different nozzle geometries and expansion ratios to see what overexpanded vs underexpanded looked like under our imaging system.
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Jp5ZYukhFeg?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+</p>
+<p>Then I incorporated the best geometry into a circular nozzle in which multiple jets are positioned around a central melt feed channel. I also tried an annular design in which the gas was delivered through a single continuous slit, but found that the gas was able to reach higher velocities with the discrete jet nozzles.
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QUnhtcI737s?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+</p>
+<h3 id="schlieren-imaging-system">Schlieren Imaging system</h3>
+<p>The video above wouldn&rsquo;t be possible without the <a href="https://en.wikipedia.org/wiki/Schlieren_photography">schlieren imaging system</a> we put together. In short, schlieren imaging relies on the varying refractive index of a fluid which is affected by its flow rate and other facturs like density, temperature, pressure.</p>
+<figure><img src="/content_pics/gas-atomization-pt1/schlieren.png">
+</figure>
+
+<p>In our setup, a collimated light source shines through a &ldquo;target area&rdquo; where the atomization will be occurring, and then is reflected off of and focused by a pair of mirrors which focuses the light into a sharp and thin slit. This light is then blocked by a sharp &ldquo;knife edge&rdquo; obstruction in front of our high speed camera. When atomization occurs, the flow rates of the gas can then be seen because the changes in refactive index of the gas allow light to make it past the knife edge and be captured by the camera behind it.</p>
+<h3 id="next-steps">Next Steps</h3>
+<p>Now that we&rsquo;ve prototyped systems on the bench we are working toward designing and building the gas atomization system assembly. My labmate Mariabelle has been focusing on the furnace which will allow us to melt the metal before atomization, so the next steps are to integrate the nozzle and furnace components so we can start atomizing new materials!</p>
 
 
     <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
@@ -131,6 +162,7 @@
       <li class="font-semibold my-4">Tags:</li>
         <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/research/">Research</a></li>
         <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/mit/">Mit</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/psfc/">Psfc</a></li>
     </ul>
 </div>
 

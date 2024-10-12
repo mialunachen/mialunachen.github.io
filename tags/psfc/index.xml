@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psfc on mia luna chen</title>
+    <link>https://mialunachen.github.io/tags/psfc/</link>
+    <description>Recent content in Psfc on mia luna chen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mialunachen.github.io/tags/psfc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gas Atomization System (Part 1: Prototyping)</title>
+      <link>https://mialunachen.github.io/posts/2024/gas-atomizer-1/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://mialunachen.github.io/posts/2024/gas-atomizer-1/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;This Spring (and the coming summer and fall), I&amp;rsquo;m working with the Plasma Science Fusion Center at MIT to develop a gas atomization system that will enable the research and development of new materials for the additive manufacturing of fusion reactor components.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
