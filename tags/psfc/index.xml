@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Psfc on mia luna chen</title>
+    <title>PSFC on mia luna chen</title>
     <link>https://mialunachen.github.io/tags/psfc/</link>
-    <description>Recent content in Psfc on mia luna chen</description>
+    <description>Recent content in PSFC on mia luna chen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mialunachen.github.io/tags/psfc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gas Atomization System (Part 2: Assembly and Atomization)</title>
+      <link>https://mialunachen.github.io/posts/2024/gas-atomizer-2/</link>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://mialunachen.github.io/posts/2024/gas-atomizer-2/</guid>
+      <description>&lt;h3 id=&#34;manufacturing-and-assembly&#34;&gt;Manufacturing and Assembly&lt;/h3&gt;&#xA;&lt;p&gt;Over the summer we made big progress on integrating all the parts of the gas atomizer into a functional system. The entire system needs to be evacuated of air and filled with argon before atomization to prevent oxication, so I machined some custom vacuum adapters before I left for the summer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gas Atomization System (Part 1: Prototyping)</title>
       <link>https://mialunachen.github.io/posts/2024/gas-atomizer-1/</link>

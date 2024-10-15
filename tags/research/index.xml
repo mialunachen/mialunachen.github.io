@@ -6,8 +6,15 @@
     <description>Recent content in Research on mia luna chen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mialunachen.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gas Atomization System (Part 2: Assembly and Atomization)</title>
+      <link>https://mialunachen.github.io/posts/2024/gas-atomizer-2/</link>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://mialunachen.github.io/posts/2024/gas-atomizer-2/</guid>
+      <description>&lt;h3 id=&#34;manufacturing-and-assembly&#34;&gt;Manufacturing and Assembly&lt;/h3&gt;&#xA;&lt;p&gt;Over the summer we made big progress on integrating all the parts of the gas atomizer into a functional system. The entire system needs to be evacuated of air and filled with argon before atomization to prevent oxication, so I machined some custom vacuum adapters before I left for the summer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gas Atomization System (Part 1: Prototyping)</title>
       <link>https://mialunachen.github.io/posts/2024/gas-atomizer-1/</link>
