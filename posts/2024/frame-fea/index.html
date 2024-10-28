@@ -4,9 +4,9 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Categories | mia luna chen</title>
+<title>Finite Element Analysis of FSAE Space Frame | mia luna chen</title>
 
-<meta name="description" content="">
+<meta name="description" content="Validation of Torsional Testing Data">
       <link rel="stylesheet" href="/css/main.min.584aed796ba9d245f84009d57da9662e9c02059611972780263728b442fc25ff.css" integrity="sha256-WErteWup0kX4QAnVfalmLpwCBZYRlyeAJjcotEL8Jf8=" crossorigin="anonymous">
 
 <link rel="icon" type="image/svg+xml" href="https://mialunachen.github.io/favicon.svg"> 
@@ -56,7 +56,7 @@
       <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/tags/">Tags</a>
     </li>
     <li class="my-2">
-      <a aria-current="page" class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200 border-zinc-400" href="/categories/">Taxonomy</a>
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/categories/">Taxonomy</a>
     </li>
     </ul>
   </nav>
@@ -76,28 +76,135 @@
 		<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
 			<a href="https://mialunachen.github.io/">mia luna chen</a>
 		</li>
+		<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
+			<a href="https://mialunachen.github.io/posts/">Posts</a>
+		</li>
 	</ul>
-</div><div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
+</div><div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
 
-  <section class="md:col-span-2">
+  <article class="md:col-span-2 prose lg:prose-lg">
 
-    <h2 class="text-3xl font-bold mb-10">Categories</h2>
-
-    <ul class="grid grid-cols-1 md:grid-cols-2 gap-10 text-2xl"><li class="relative hover:bg-zinc-200 border py-6 px-8 rounded-2xl group">
-      	<a class="insert-link flex items-center space-x-4" href="/categories/engineering/">
-      		<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="group-hover:animate-spin" viewBox="0 0 16 16">
-  				<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-  				<path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
-			</svg>
-      		<span>Engineering</span></a>
-  		</li>
-
+    <header class="not-prose">
       
-    
-    </ul>
-  
-  </section>
+      <h1 id="title" class="text-4xl font-bold leading-normal">Finite Element Analysis of FSAE Space Frame</h1>
 
+      <div id="lead" class="my-6">
+
+        <p class="font-bold">Validation of Torsional Testing Data </p>
+
+      </div>
+      
+      <div id="writer" class="flex items-center space-x-4">
+
+        <img class="w-12 h-12 bg-black rounded-full" src="https://mialunachen.github.io/images/profile_pic_square.jpg" alt="Mia Chen avatar" width="430" height="427">
+
+        <ul class="flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+          
+          <li class="font-semibold my-2">Mia Chen</li>
+          
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2"><time datetime="2024-10-13T00:00:00&#43;00:00">October 13, 2024</time>
+          </li>
+
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
+            2 min read
+          </li>
+
+        </ul>
+
+      </div>
+      
+    </header>
+
+    <figure id="featureimage" class="rounded-xl aspect-video">
+            <img class="rounded-lg" src="https://mialunachen.github.io/content_pics/frame-FEA/MY24-FEA-pic_hu11031810674462261153.png" alt="" width="750" height="506">
+        <figcaption class="text-center italic text-xs"></figcaption>
+
+    </figure>
+
+    <div id="content" class="mb-14">
+      <h2 id="validation-of-my24-frame-torsion-testing">Validation of MY24 Frame Torsion Testing</h2>
+<p>Last season, we tested the torsional stiffness of our steel space frame by twisting it in a torsionation jig. This year to help me design the MY25 frame, I modeled MY24 in FEA and twisted it the same way to validate our torsion testing.</p>
+<p>We torsionated three times, once with a minimum rules viable frame, a second time with added diagonal braces, and a third with the braces and the battery.</p>
+
+<div class="aside" align="center">
+<img src="/content_pics/frame-FEA/MY24-Torsion.png" width="600" height="500">
+</div>
+
+<p>To correlate this data, I did one dimensional FEA on the frame for the same three configurations. I modeled the battery as just the top and bottom aluminum structure plates rigidly mounted to the frame. The results of the FEA correlated very well with our physical torsion testing, with a roughly 78% scaling factor between simulation and experimental values. This difference can likely be attributed to the 1D nature of the simulation, since it does not take into account the bending of the frame tubes that contribute additional compliance to the frame. The next step would be to develop a 3D model, but I now know that a 1D model provides a pretty good reference for the relative stiffness of different frame designs that will enable rapid design iteration for the MY25 Frame.</p>
+<p>Sneak peek of the MY25 frame so far:
+
+<div class="aside" align="center">
+<img src="/content_pics/frame-FEA/MY25-frame.png" width="600" height="500">
+</div>
+</p>
+
+
+    <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+
+      <li class="font-semibold my-4">Tags:</li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/motorsports/">Motorsports</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/mit/">Mit</a></li>
+    </ul>
+</div>
+
+    <footer id="content-footer" class="not-prose">
+
+      <div id="author-box" class="my-8 md:my-14 border p-8 bg-zinc-100 rounded-2xl">
+
+        <img class="w-20 h-20 rounded-full" src="/images/profile_pic_square.jpg" alt="Mia Chen">
+
+        <h2 class="text-xl font-bold my-4">Written by : Mia Chen</h2>
+
+        <p class="mb-4">Mechanical Engineer</p>
+
+      </div>
+
+      <div id="related-post" class="">
+
+        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://mialunachen.github.io/posts/2024/fsae-seat/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://mialunachen.github.io/images/seat_hu14593119006338778229.jpg" alt="Custom Carbon Fiber Bucket Seat &amp; Ergonomics Jig" width="750" height="565">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2024-04-20T00:00:00&#43;00:00">Apr 20, 2024</time>
+
+		<h3 class="my-4 text-2xl font-bold">Custom Carbon Fiber Bucket Seat &amp; Ergonomics Jig</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Made for MIT Motorsports MY24</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://mialunachen.github.io/posts/2024/frame-welding/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://mialunachen.github.io/images/welding-thumbnail_hu1496746391575883502.jpg" alt="Manufacturing of an FSAE Steel Space Frame" width="750" height="505">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2024-02-10T00:00:00&#43;00:00">Feb 10, 2024</time>
+
+		<h3 class="my-4 text-2xl font-bold">Manufacturing of an FSAE Steel Space Frame</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Welding and jigging the frame for MY24</p>
+
+	</div>
+</article>
+          
+        </div>
+      </div>
+
+    </footer>
+
+  </article>
+
+  
   <aside class="md:col-span-1"><div class="lg:sticky lg:top-8"><div class="space-y-6">
 
 		<h2 class="font-bold text-xl mb-8">Recent Post</h2>
@@ -149,8 +256,8 @@
 </div>
 </aside>
 
-  </div>
-
+</div>
+  
 </main>
   <footer class="bg-zinc-100 py-10 md:py-14"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
 
